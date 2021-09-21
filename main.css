@@ -1,0 +1,59 @@
+.bg-darkblue{
+    background-color: #385898;
+}
+.bg-lightblue{
+    background-color: rgb(237, 241, 243);
+}
+.fbimg{
+    height:28%;
+    width:28%;
+}
+.f13,span{
+    font-size: 13px;
+}
+.img-card{
+    height: 100%;
+    width: 100%;
+}
+
+.card-heads{
+    height: 200px !important;
+}
+
+.img-cards{
+    height: 200px;
+}
+.word-sp7{
+    word-spacing: 7px;
+}
+.word-sp15{
+    word-spacing: 15px;
+}
+a{
+    color:  #385898;
+}
+.w1{
+    height: 100%;
+    width: 100%;
+}
+.bor-rad{
+    border-radius: 0px;
+}
+.login-top{
+    margin-top: 28px;
+}
+.form-control:focus {
+    outline: none !important;
+    box-shadow: none !important;
+    border-color: #ced4da ;
+}
+.focusss:focus{
+    border-color: black;;
+}
+.form-control-sm{
+    font-size:12px;
+}
+.tobo{
+ padding-top: 2px;
+ padding-bottom: 2px;
+}

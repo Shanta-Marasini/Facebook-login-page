@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+        crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+    <title>Document</title>
+</head>
+<body>
+    <!--navbar start-->
+    <div class="container-fluid bg-darkblue m-0 p-0">
+      <div class="container my-0 py-0">
+        <nav class="navbar navbar-expand-lg navbar-light bg-darkblue m-0 p-0">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+            
+          <a class="navbar-brand m-0 p-0" href="#">
+            <img src="img/fbb.png" class="fbimg bg-darkblue pb-0 mb-0 ml-0" alt="">   <!--fb-img-->
+               </a>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+            <form class="m-0 p-0">
+              <div class="form-row m-0 pt-1">
+                <div class="form-group col-md-4">
+                  <label for="inputEmail4" class="text-white f13">Email or Phone </label>
+                  <input type="email" class="form-control form-control-sm tobo px-1 bor-rad border-dark focusss" id="inputEmail4" placeholder="">
+                  </div>
+                  <div class="form-group col-md-4 mb-1">
+                    <label for="inputPassword4" class="text-white f13">Password</label>
+                    <input type="password" class="form-control form-control-sm tobo px-1 border-dark bor-rad focusss " id="inputPassword4" placeholder="">
+                    <small><a id="emailHelp" class="form-text text-light" href="#">Forgot Account?</a> </small>
+                  </div>
+                  <div class="form-group col-md-4 ">
+                    <button class="btn btn-info login-top btn-sm border-dark px-1 py-0 " type="submit">
+                    <span>Log In </span> </button>
+                  </div>
+                </div>
+            </form>
+          </div>
+        </nav>
+      </div>
+    </div>
+          <!--navbar end-->
+          <!--main body start-->
+  <div class="bg-lightblue pt-4 pb-5">
+  <div class="container ">
+    <div class="row ml-1">
+          <div class="col-lg-7 ">             <!--1st div-->
+            <h2>Recent Logins</h2>
+            <h5>Click your picture or add an account.</h5>
+          </div>
+            <div class="col-lg-5 ">             <!--2nd div-->
+            <h2>Create a new account</h2>
+            <h5>It's quick and easy.</h5>
+          </div>
+    </div>
+  </div>
+  <!--card and form start-->
+  <div class="container">
+    <div class="row ml-1">
+    <div class="col-lg-7">
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="card w1">                           <!--card1-->
+              <img src="img/santa.jpg" class="card-img-top img-card" alt="...">
+              <div class="card-body">
+                  <h6 class="card-text text-center ">Shanta </h6>
+              </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4">
+          <div class="card w1" >             <!--card2-->
+              <img src="img/mah.jpg" class="card-img-top img-card" alt="...">
+              <div class="card-body ">
+                <h6 class="card-text text-center">Mahesh</h6>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="card w1">         <!--card3-->
+             <div class="card-head card-heads">
+                <img src="img/plus.jpg" class="card-img-top img-cards " alt="...">
+             </div>
+                <div class="card-body">
+                <h6 class="card-text text-center">Add account</h6>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>          <!--card done-->
+      
+    <div class="col-lg-5">
+          
+        <form>
+            <div class="form-group">
+            <div class="form-row">
+              <div class="col">
+                <input type="text" class="form-control" placeholder="First name">
+              </div>
+              <div class="col">
+                <input type="text" class="form-control" placeholder="Last name">
+              </div>
+            </div>   
+            </div>                                <!--1st line done-->
+
+            <div class="form-group">
+              <input type="text" class="form-control" id="inputAddress" placeholder="Mobile number or Email">
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" id="inputAddress" placeholder="New Password">   <!--3rd line done---->
+            </div>                                                        <!--3rd line done---->
+            
+            <label for="birthday" class="text-secondary"> <b>Birthday </b></label>
+            <div class="form-row">                                <!--main row start-->
+              
+                <div class=" col-md-2 pr-0">                          <!--1st opt start-->
+                    
+                    <select id="inputState" class="form-control form-control-sm">
+                      <option selected>Dec</option>
+                      <option>...</option>
+                    </select>
+                  </div>                                                    <!--1st opt end-->
+                <div class="form-group col-md-2 p-0">                            <!--2nd opt start-->
+                                                   
+                  <select id="inputState" class="form-control form-control-sm ">
+                    <option selected>12</option>
+                    <option>...</option>
+                  </select>
+                </div>                                                      <!--2nd opt end-->
+                <div class=" col-md-2 p-0">                           <!--3rd opt start-->
+                    
+                    <select id="inputState" class="form-control form-control-sm">
+                      <option selected>1998</option>
+                      <option>...</option>
+                    </select>
+                  </div>
+                  <div class="col-md-2 pt-1">
+                      <i class="fas fa-question-circle"></i>
+                  </div>
+            </div>                                                             <!--main row end-->
+              <label for="gender" class="text-secondary"><b>Gender</b></label>
+              <div>
+            <div class="form-check form-check-inline">                          <!--radio start-->
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                <label class="form-check-label" for="inlineRadio1">Female</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                <label class="form-check-label" for="inlineRadio2">Male</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
+                <label class="form-check-label" for="inlineRadio3">Custom</label>
+              </div> 
+              <i class="fas fa-question-circle"></i> 
+              <div class="row">
+                <div class="col-lg-8">
+              <small id="emailHelp" class="form-text text-muted">By clicking Sign Up, you agree to our <a href="#">Terms</a>,<a href="#"> Data Policy</a> and <a href="#">Cookies Policy</a>. You may receive SMS Notifications from us and can opt out any time.
+                </small>
+                </div>
+                </div>
+              </div>                                 <!--radio end-->
+              
+              </small>
+              <div class="div pt-2">
+              <button type="button" class="btn btn-success border-dark btn-md px-5">Sign Up</button>
+            </div>
+            <div class="row pt-3">
+              <div class="col border-top pt-2">
+               <span> <a href="#">Create a page </a> for a celebrity,band or business.</span>
+              </div>
+            </div>
+            </div>                                                                  
+
+          
+          </form>
+
+    </div>
+    </div>          <!--card and form end-->
+    </div>
+  </div>            <!--donno where it belongs???-->
+  <div class="container py-3">
+    <div class="word-sp7 mb-2">
+      <small>
+      <a href="#"> English (US)</a>
+      <a href="#"> नेपाली</a>
+      <a href="#"> हिन्दी</a>
+      <a href="#"> Español</a>
+      <a href="#"> Português (Brasil)</a>
+      <a href="#"> 日本語</a>
+      <a href="#"> Français (France)</a>
+      <a href="#"> Deutsch</a>
+      <a href="#"> Italiano</a>
+      <a href="#"> لعربية </a>
+      <a href="#">中文(简体)</a>
+      <button type="button" class="btn bg-lightblue btn-sm py-0 px-2 border black"> <i class="fas fa-plus"></i> </button>
+      </small>
+     
+    </div>
+    <div class="border-top pt-2 word-sp15">
+        <small>
+            <a href="#">SignUp</a>
+            <a href="#"> LogIn</a>
+            <a href="#"> Messenger </a>
+            <a href="#"> Facebook Lite</a>
+            <a href="#"> Watch </a>
+            <a href="#"> People </a>
+            <a href="#"> Pages </a>
+            <a href="#">  Page Categories</a>
+            <a href="#">  Places</a>
+            <a href="#"> Games </a>
+            <a href="#"> Locations </a>
+            <a href="#">  Marketplace</a>
+            <a href="#"> Instagram </a>
+            <a href="#"> Local </a>
+            <a href="#"> Fundraisers </a>
+            <a href="#"> Services </a>
+            <a href="#"> About </a>
+            <a href="#">  CreatAd</a>
+            <a href="#">  CreatePage</a>
+            <a href="#"> Developers</a>
+            <a href="#">Careers </a>
+            <a href="#">Privacy </a>
+            <a href="#"> CookiesAd</a>
+            <a href="#">Choices</a>
+            <a href="#">Terms</a>
+            <a href="#">Help</a>
+            <a href="#"> Setting </a>
+            <a href="#"> Activity </a>
+            <a href="#">  Log </a>  
+            </small>
+
+    </div>                <!--2nd div end-->
+
+
+<div class="py-3">
+ <small class="text-secondary"> facebook <i class="far fa-copyright"></i>   2019 </small>
+</div>
+
+
+</div><!--main container end-->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+    crossorigin="anonymous"></script>
+</body>
+</html>
